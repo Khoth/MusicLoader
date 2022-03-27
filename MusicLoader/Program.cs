@@ -20,8 +20,11 @@ namespace MusicLoader
 				var song = listFileReader.ReadLine();
 
 				// TODO
-				var parts = song.Split(" - ");
-				song = $"{parts[1]} - { parts[0]}";
+                if (song.Contains(" - "))
+				{
+					var parts = song.Split(" - ");
+					song = $"{parts[1]} - { parts[0]}";
+				}
 
 				Console.WriteLine($"Песня: {song}");
 
