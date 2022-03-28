@@ -1,4 +1,4 @@
-﻿namespace MusicLoader.Interface
+﻿namespace MusicLoader.Abstraction
 {
     /// <summary>
     /// Веб-сервис, сочетающий возможность поиска и скачивания треков.

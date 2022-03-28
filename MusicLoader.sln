@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicLoader", "MusicLoader\MusicLoader.csproj", "{54FA94CE-23A4-4059-BD2E-C7B225C64EA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicLoader", "MusicLoader.BLL\MusicLoader.csproj", "{508714A1-6AF4-47F1-8ADB-99BD766DE6A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicLoader.BLL.Test", "MusicLoader.BLL.Test\MusicLoader.BLL.Test.csproj", "{2002767F-E180-4EFB-9E09-BECAA6EF597A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{54FA94CE-23A4-4059-BD2E-C7B225C64EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54FA94CE-23A4-4059-BD2E-C7B225C64EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54FA94CE-23A4-4059-BD2E-C7B225C64EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54FA94CE-23A4-4059-BD2E-C7B225C64EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508714A1-6AF4-47F1-8ADB-99BD766DE6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508714A1-6AF4-47F1-8ADB-99BD766DE6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508714A1-6AF4-47F1-8ADB-99BD766DE6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508714A1-6AF4-47F1-8ADB-99BD766DE6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2002767F-E180-4EFB-9E09-BECAA6EF597A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2002767F-E180-4EFB-9E09-BECAA6EF597A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2002767F-E180-4EFB-9E09-BECAA6EF597A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2002767F-E180-4EFB-9E09-BECAA6EF597A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
